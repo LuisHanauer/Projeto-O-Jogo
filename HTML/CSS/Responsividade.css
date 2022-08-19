@@ -23,7 +23,7 @@
         justify-content: center;
     }
 
-    .img{
+    .imagem{
         margin: 21px 0 23px 0;
     }
 
@@ -51,20 +51,20 @@
     }
 
     .conteudoSecundario,
-    .text1,
-    .text2,
-    .text3,
+    .texto1,
+    .texto2,
+    .texto3,
     .botao3,
     .inputDigite{
         width: 300px;
     }
 
-    .text1,
-    .text2{
+    .texto1,
+    .texto2{
         font-size: 20px;
     }
 
-    .text2{
+    .texto2{
         margin-bottom: 33px;
         text-align: center;
     }

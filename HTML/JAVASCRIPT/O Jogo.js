@@ -7,7 +7,7 @@ let fulano = document.querySelector('.fulano');
 let jogar = document.querySelector('.jogar');
 let reset = document.querySelector('.reset');
 let info = document.querySelector('.info');
-let quanTentativas = document.querySelector('.quanTentativas');
+let quanTentativas = document.querySelector('.asTentativas');
 let numSorteado;
 let contador = 3;
 
