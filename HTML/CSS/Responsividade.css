@@ -1,0 +1,79 @@
+/* versão Mobile */
+@media(max-width: 428px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        width: 100%;
+        font-size: 100%;
+        margin: 0 auto;
+    }
+
+    .conteudo{
+        max-width: 320px;
+        margin: 0 auto;
+        padding: 66px 0 90px 0;
+    }
+
+    .telas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img{
+        margin: 21px 0 23px 0;
+    }
+
+    div{
+        width: 300px;
+    }
+
+    .nome{
+        margin-bottom: 19px;
+        font-size: 16px;
+    }
+
+    .inputNome, .inputSelect{
+        margin-bottom: 59px;
+    }
+
+    .botao{
+        margin-bottom: 72px;
+    }
+
+    .conteudoSecundario{
+        border: none;
+        align-self: center;
+        margin-bottom: 78px;
+    }
+
+    .conteudoSecundario,
+    .text1,
+    .text2,
+    .text3,
+    .botao3,
+    .inputDigite{
+        width: 300px;
+    }
+
+    .text1,
+    .text2{
+        font-size: 20px;
+    }
+
+    .text2{
+        margin-bottom: 33px;
+        text-align: center;
+    }
+
+    .jogar{
+        margin-bottom: 54px;
+    }
+
+    .reset{
+        display: none;
+    }
+}

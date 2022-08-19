@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desafio O Jogo">
+    <title>Desafio 2</title>
+
+    <link rel="stylesheet" href="CSS/O Jogo.css">
+    <link rel="stylesheet" href="CSS/Responsividade.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&family=Squada+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header></header>
+
+    <main class="conteudo">
+        <fieldset class="telas">
+            <legend class="titulo">O JOGO</legend>
+
+            <section class="conteudo-principal">
+                <img class="img" src="IMAGEM/image_1.png" alt="emoji de pessoa">
+
+                <div>
+                    <label class="nome" for="name"><b>Nick:</b></label>
+                    <input class="inputNome" type="text" id="name">
+
+                    <label class="nome" for="intervalos"><b>Intervalo:</b></label>
+                    <select class="inputSelect" name="intervalo" id="intervalos">
+                        <option value="opcao1">Opção 1: 1 a 10</option>
+                        <option value="opcao2">Opção 2: 1 a 100</option>
+                        <option value="opcao3">Opção 3: 1 a 200</option>
+                    </select>
+
+                    <button class="botao" type="submit" disabled>COMEÇAR</button>
+                </div>
+            </section>
+
+            <section class="conteudoSecundario">
+                <p class="text1">
+                    Olá <b><span class="fulano"></span></b>, vamos jogar! 
+                </p>
+                <p class="text2">
+                    De acordo com a opção de intervalo que você escolheu, descubra o número.   
+                </p>
+
+                <div>
+                    <label class="nome" for="numero"><b>Digite um número:</b></label>
+                    <input class="inputDigite" type="number" id="numero">
+
+                    <button class="jogar" type="submit" disabled>JOGAR</button>
+                    <button class="reset" type="reset">RECOMEÇAR</button>   
+                </div>
+
+                <p class="text3">
+                    <b><span class="info"></span></b>
+                </p>
+
+                <p class="quanTentativas"></p>
+            </section>
+        </fieldset>
+    </main>
+    <script src="Script.js"></script>
+    <footer></footer>
+</body>
+</html>
